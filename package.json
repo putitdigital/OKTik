@@ -2,9 +2,9 @@
   "name": "oktik",
   "version": "1.0.0",
   "description": "website for oktik",
-  "main": "index.js",
+  "main": "serve.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serve.js",
     "devStart": "nodemon server.js"
   },
   "repository": {
