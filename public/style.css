@@ -257,7 +257,7 @@ body {
   margin-bottom: 50px;
 }
 #products .dark-card{
-background-image: url('./assets/card_blue.png');
+background-image: url('./photos/card_blue.png');
 border-radius: 16px;
 background-repeat: no-repeat;
 background-attachment: fixed;

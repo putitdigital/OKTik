@@ -4,7 +4,8 @@
   "description": "website for oktik",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/putitdigital/OKTik#readme",
   "devDependencies": {
-    "@azure/static-web-apps-cli": "^2.0.5"
+    "@azure/static-web-apps-cli": "^2.0.5",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
   }
 }
